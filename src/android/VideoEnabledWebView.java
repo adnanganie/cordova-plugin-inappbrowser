@@ -130,9 +130,9 @@ public class VideoEnabledWebView extends WebView
         {
             // Add javascript interface to be called when the video ends (must be done before page load)
             //noinspection all
-            addJavascriptInterface(new JavascriptInterface(), "_VideoEnabledWebView"); // Must match Javascript interface name of VideoEnabledWebChromeClient
+          //  addJavascriptInterface(new JavascriptInterface(), "_VideoEnabledWebView"); // Must match Javascript interface name of VideoEnabledWebChromeClient
 
-            addedJavascriptInterface = true;
+            //addedJavascriptInterface = true;
         }
     }
 
